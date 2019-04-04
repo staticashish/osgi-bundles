@@ -1,0 +1,20 @@
+#Deployment Plugin Project File
+#Tue Sep 11 17:49:41 CEST 2018
+build.ant.name=<.>/resources/dp/com.scania.psb.mqtt.producer.provider_build.xml
+build.dp.file=<.>/resources/dp/com.scania.psb.mqtt.producer.provider.dp
+build.location=
+bundles.0.bundle_path=/home/asuqp8/Ashish/OSGI-Bundles/2/plugins/com.scania.psb.mqtt.producer.provider_1.0.0.jar
+bundles.0.customizer=false
+bundles.0.headers.count=0
+bundles.0.missing=false
+bundles.0.name=bundles/com.scania.psb.mqtt.producer.provider_1.0.0.jar
+bundles.0.symbolic_name=com.scania.psb.mqtt.producer.provider
+bundles.0.version=1.0.0
+bundles.count=1
+certificates.count=0
+general.signbundles=false
+headers.other.headers=
+headers.symbolic.name=com.scania.psb.mqtt.producer.provider
+headers.version=1.0.0
+resources.count=0
+

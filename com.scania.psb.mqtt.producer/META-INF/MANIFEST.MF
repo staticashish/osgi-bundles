@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: mqtt-producer
+Bundle-SymbolicName: com.scania.psb.mqtt.producer
+Bundle-Version: 1.0.0
+Bundle-Vendor: SCANIA
+Automatic-Module-Name: com.scania.psb.mqtt.producer
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.kura;version="1.4.0"
+Export-Package: com.scania.psb.mqtt.producer

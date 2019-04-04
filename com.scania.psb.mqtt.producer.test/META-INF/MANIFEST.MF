@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: mqtt-producer-test
+Bundle-SymbolicName: com.scania.psb.mqtt.producer.test
+Bundle-Version: 1.0.0
+Bundle-Vendor: SCANIA
+Automatic-Module-Name: com.scania.psb.mqtt.producer.test
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Service-Component: OSGI-INF/com.scania.psb.mqtt.producer.test.ProviderTest.xml
+Bundle-ActivationPolicy: lazy
+Import-Package: com.scania.psb.mqtt.producer,
+ org.eclipse.kura;version="1.4.0",
+ org.osgi.service.component;version="1.2.2",
+ org.osgi.service.component.annotations;version="1.2.0",
+ org.slf4j;version="1.7.25"
